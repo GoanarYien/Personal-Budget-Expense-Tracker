@@ -1,0 +1,83 @@
+CSS
+/* ===================================================
+   PART 4 - Basic Styling with CSS Selectors
+   =================================================== */
+
+/* 1. Element Selectors */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f2f5;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+main {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+h1, h2 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input, select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* 2. ID Selectors */
+#main-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#add-expense-section {
+  border-left: 5px solid #28a745; /* Green side accent */
+}
+
+#expenses-list-section {
+  border-left: 5px solid #007bff; /* Blue side accent */
+}
+
+/* 3. Class Selectors */
+.subtitle {
+  color: #666666;
+  font-size: 1.1rem;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.btn {
+  background-color: #28a745;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.placeholder-text {
+  font-style: italic;
+  color: #888888;
+}
